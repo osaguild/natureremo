@@ -33,7 +33,8 @@ curl -X GET "https://api.nature.global/1/appliances" -H "Authorization: Bearer $
  - Run `remo_transmission.py`
 
 ### Register infrared signal
-
-
+ - Set Remo's ip address to `TOKEN`
+ - Set output file name to `FILE_NAME`
+ - Run `remo_get_appliances.py`
 ### Remote control Sharp TV
 
