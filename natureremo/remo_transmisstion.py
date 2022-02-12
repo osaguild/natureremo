@@ -2,7 +2,7 @@ import requests
 import json
 
 IP_ADDRESS = '192.168.11.14'
-FILE_NAME = 'output.json'
+FILE_NAME = 'input.json'
 
 url = 'http://' + IP_ADDRESS + '/messages'
 headers = {'X-Requested-With': 'local'}
